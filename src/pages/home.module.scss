@@ -1,1 +1,58 @@
-// TODO
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+
+  & > button{
+    color: var(--pink);
+    font-size: 1.175rem;
+    font-weight: 600;
+    padding: 2px 0px 2px 0px;
+    margin-top: 64px;
+    margin-bottom: 80px;
+    background-color: transparent;
+    border: none;
+    transition: color 0.3 ease-out;
+
+    &:hover {
+      color: #FF57ff;
+    }
+  }
+}
+
+.content{
+  width: 100%;
+  margin-top: 48px;
+
+  // & + .content {
+  //   margin-top: 48px;
+  // }
+
+  h1 {
+    color: var(--gray-100);
+    font-size: 1.75rem;
+    font-weight: 700;
+    padding: 3px 0 3px 0;
+    margin-bottom: 8px;
+    transition: color 0.3s ease-out;
+
+    &:hover {
+      color: var(--pink);
+    }
+  }
+
+  p {
+    color: var(--gray-400);
+    font-size: 1.125rem;
+    font-weight: 400;
+    padding: 2px 0 2px 0;
+    margin-bottom: 24px;
+
+  }
+
+  span {
+    color: var(--gray-500);
+    margin-right: 24px;
+    font-size: 0.875rem;
+    font-weight: 400;
+  }
+}
