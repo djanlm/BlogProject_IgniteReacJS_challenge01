@@ -11,7 +11,7 @@
     margin-bottom: 80px;
     background-color: transparent;
     border: none;
-    transition: color 0.3 ease-out;
+    transition: color 0.3s ease-out;
 
     &:hover {
       color: #FF57ff;
@@ -54,5 +54,22 @@
     margin-right: 24px;
     font-size: 0.875rem;
     font-weight: 400;
+  }
+}
+
+.exitPreviewButton {
+  width: 100%;
+  background-color: var(--gray-100);
+  color: #111111;
+  font-weight: 600;
+  font-size: 1.125rem;
+  display: block;
+  text-align: center;
+  padding: 20px 0 20px 0;
+  margin-top: 5rem;
+  transition: background-color 0.2s;
+  border-radius: 0.25rem;
+  &:hover {
+    background-color: var(--gray-400);
   }
 }
